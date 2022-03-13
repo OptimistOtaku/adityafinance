@@ -1,0 +1,68 @@
+*{
+    box-sizing: content-box;
+    margin: none;
+}
+
+div.roi{
+    padding-bottom: 50px;
+    margin: 5px 10px;
+    border: 1px solid;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    overflow: hidden;
+    
+}
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    right: 25%;
+}
+
+
+
+div.title{
+    text-align: center;
+    font-size: 25px; ;
+}
+
+
+table{
+    padding: 15px 20px;
+    margin: auto;
+    
+}
+
+td{
+    padding: 9px 15px;
+    font-size: 20px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+
+td.bip{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+}
+
+footer{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: black;
+    margin: 5px 0px 0px;
+    padding: 5px;
+}
+
+i.fab fa-whatsapp fa-lg{
+    padding: 5px;
+    text-align: left;
+    color: green;
+}

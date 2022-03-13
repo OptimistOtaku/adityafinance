@@ -1,0 +1,103 @@
+*{
+    box-sizing: content-box;
+   }
+   
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}  
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 50px;
+    width: 50%;
+    height: 30%;
+    border-radius: 15px;
+}
+ 
+   .container{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+       padding: 5px 20px 15px 20px;
+       border: 1px solid lightblue;
+       border-radius: 5px;
+       width: 70%;
+       position: absolute;
+       right: 200px;
+       margin-bottom: 60px;
+       margin-top: 60px;
+   }
+   
+   input[type="text"],
+   input[type="email"],
+   input[type="number"],
+   input[type="date"],
+   input[type="password"]
+   ,select {
+       width: 90%;
+       padding: 12px;
+       border: 1px solid #cccc;
+       border-radius: 5px;
+   }
+
+.apply{
+    /*background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );*/
+    background-color: #e5735c;
+    width: 130px;
+    height: 40px;
+    padding: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+   
+   button.submit{
+       background-image: radial-gradient( circle 780.6px at 10% 20%,  rgba(133,255,189,1) 0%, rgba(255,251,125,1) 90.7% );
+       width: 75px;
+       height: 30px;
+       border-radius: 30px;
+   }
+   
+   button.submit :hover{
+       background:  yellow;
+       display: block;
+       border-radius: 30px;
+       transition: 500ms;
+   }
+   
+   fieldset{
+       background-color: lightblue
+       border 1px solid #ccc;
+   }
+
+
+/* div.foot{
+    position: relative;
+    bottom: 0px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: black;
+    margin: 5px 0px 0px;
+    padding: 5px;
+}*/
+   
+section{
+    padding: 48%;
+    margin: none;
+    background-color: white;
+
+}   
+   
+footer{
+    margin: 0px;
+
+}
+

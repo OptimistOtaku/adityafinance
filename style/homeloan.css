@@ -1,0 +1,63 @@
+*{
+    margin: none;
+    box-sizing: content-box;
+}
+
+header img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    right: 25%;
+}
+
+div.container img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid;
+    width: 55%;
+    height: 40%;
+    
+    right: 25%;
+}
+
+div.info{
+    display: block;
+    padding-bottom: 100px;
+    margin: auto;
+    border: 1px solid;
+    width: 50%;
+    height: 1092px;
+    
+    overflow: hidden;
+    top: 100%;
+    right: 4%;
+}
+
+.app{
+    display: block;
+    margin: auto;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    text-align: center;
+    text-decoration: none;
+}
+
+.app:hover{
+    opacity: 1.9;
+}
+
+
+
+div.foot{
+    margin-top: 5%;
+}
