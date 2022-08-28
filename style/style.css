@@ -74,14 +74,12 @@ nav a{
    
 }
 
-.banner{
-    background-image: url(banner\ n2.gif);
-    height: 20vw;
-    min-height: 100px;
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 38%;
-    background-attachment: fixed;
+header img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    right: 25%;
    
  
  }
